@@ -11,6 +11,9 @@ import Contact from './pages/Contact';
 import PaidMedia from './pages/Services/PaidMedia';
 import ContentSEO from './pages/Services/ContentSEO';
 import SocialMedia from './pages/Services/SocialMedia';
+import WebDevelopment from './pages/Services/WebDevelopment';
+import AIAutomation from './pages/Services/AIAutomation';
+import Consulting from './pages/Services/Consulting';
 import './App.css';
 
 function App() {
@@ -26,6 +29,9 @@ function App() {
               <Route path="servicos/midia-paga" element={<PaidMedia />} />
               <Route path="servicos/content-seo" element={<ContentSEO />} />
               <Route path="servicos/redes-sociais" element={<SocialMedia />} />
+              <Route path="servicos/web-development" element={<WebDevelopment />} />
+              <Route path="servicos/ai-automation" element={<AIAutomation />} />
+              <Route path="servicos/consultoria" element={<Consulting />} />
               <Route path="cases" element={<Cases />} />
               <Route path="contato" element={<Contact />} />
               {/* Rota de fallback para URLs não encontradas */}
