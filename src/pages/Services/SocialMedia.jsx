@@ -4,7 +4,7 @@ import { ArrowRight, Heart, MessageCircle, Share2, Camera, BarChart3, Users } fr
 import { useLanguage } from '../../contexts/LanguageContext';
 
 const SocialMedia = () => {
-  const { t } = useLanguage();
+  // const { t } = useLanguage(); // Temporariamente desabilitado
 
   return (
     <div className="min-h-screen pt-16">

@@ -4,7 +4,7 @@ import { ArrowRight, Target, Users, Award, TrendingUp, Brain, Zap } from 'lucide
 import { useLanguage } from '../contexts/LanguageContext';
 
 const About = () => {
-  const { t } = useLanguage();
+  // const { t } = useLanguage(); // Temporariamente desabilitado
   
   return (
     <div className="min-h-screen">

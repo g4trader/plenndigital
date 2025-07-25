@@ -4,7 +4,7 @@ import { ArrowRight, Target, BarChart3, Zap, TrendingUp, Users, DollarSign } fro
 import { useLanguage } from '../../contexts/LanguageContext';
 
 const PaidMedia = () => {
-  const { t } = useLanguage();
+  // const { t } = useLanguage(); // Temporariamente desabilitado
 
   return (
     <div className="min-h-screen pt-16">

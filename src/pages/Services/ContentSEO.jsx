@@ -4,7 +4,7 @@ import { ArrowRight, Search, FileText, TrendingUp, Users, Award, Zap } from 'luc
 import { useLanguage } from '../../contexts/LanguageContext';
 
 const ContentSEO = () => {
-  const { t } = useLanguage();
+  // const { t } = useLanguage(); // Temporariamente desabilitado
 
   return (
     <div className="min-h-screen pt-16">
