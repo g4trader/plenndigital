@@ -30,18 +30,34 @@ const translations = {
     // About Page
     aboutTitle: 'Aqui, só quem está pronto para voar mais alto decola',
     aboutSubtitle: 'Desde 2020, a Plenn Digital não segue o mercado. Acelera, transforma e redefine as regras com inteligência artificial e estratégias de alta performance.',
+    aboutPageTitle: 'Sobre Nós',
+    aboutPageSubtitle: 'Conheça nossa história e metodologia',
+    aboutPageButton: 'Fale Conosco',
     
     // Services Page
     servicesPageTitle: 'Soluções Completas para Seu Crescimento Digital',
     servicesPageSubtitle: 'Não importa o desafio, temos a solução ideal para acelerar seu crescimento. Cada serviço é potencializado por inteligência artificial e estratégias de alta performance.',
     
+    // Individual Services
+    paidMedia: 'Mídia Paga',
+    contentSeo: 'Content & SEO',
+    socialMedia: 'Redes Sociais',
+    webDev: 'Desenvolvimento Web',
+    aiAutomation: 'IA & Automação',
+    consulting: 'Consultoria',
+    
     // Cases Page
     casesTitle: 'Cases de Sucesso',
     casesSubtitle: 'Resultados reais de clientes que confiaram na nossa metodologia',
+    casesPageTitle: 'Cases de Sucesso',
+    casesPageSubtitle: 'Resultados reais que transformaram negócios',
+    casesPageButton: 'Quero Minha Consultoria Gratuita',
     
     // Contact Page
     contactTitle: 'Vamos Acelerar Seu Negócio?',
     contactSubtitle: 'Entre em contato conosco e descubra como podemos transformar seus resultados',
+    contactPageTitle: 'Entre em Contato',
+    contactPageSubtitle: 'Estamos prontos para acelerar seu crescimento digital',
     nameLabel: 'Nome',
     emailLabel: 'E-mail',
     phoneLabel: 'Telefone',
@@ -91,18 +107,34 @@ const translations = {
     // About Page
     aboutTitle: 'Here, only those ready to fly higher take off',
     aboutSubtitle: 'Since 2020, Plenn Digital doesn\'t follow the market. It accelerates, transforms and redefines the rules with artificial intelligence and high-performance strategies.',
+    aboutPageTitle: 'About Us',
+    aboutPageSubtitle: 'Learn about our history and methodology',
+    aboutPageButton: 'Contact Us',
     
     // Services Page
     servicesPageTitle: 'Complete Solutions for Your Digital Growth',
     servicesPageSubtitle: 'No matter the challenge, we have the ideal solution to accelerate your growth. Each service is powered by artificial intelligence and high-performance strategies.',
     
+    // Individual Services
+    paidMedia: 'Paid Media',
+    contentSeo: 'Content & SEO',
+    socialMedia: 'Social Media',
+    webDev: 'Web Development',
+    aiAutomation: 'AI & Automation',
+    consulting: 'Consulting',
+    
     // Cases Page
     casesTitle: 'Success Cases',
     casesSubtitle: 'Real results from clients who trusted our methodology',
+    casesPageTitle: 'Success Cases',
+    casesPageSubtitle: 'Real results that transformed businesses',
+    casesPageButton: 'I Want My Free Consultation',
     
     // Contact Page
     contactTitle: 'Let\'s Accelerate Your Business?',
     contactSubtitle: 'Contact us and discover how we can transform your results',
+    contactPageTitle: 'Contact Us',
+    contactPageSubtitle: 'We are ready to accelerate your digital growth',
     nameLabel: 'Name',
     emailLabel: 'Email',
     phoneLabel: 'Phone',
@@ -152,18 +184,34 @@ const translations = {
     // About Page
     aboutTitle: 'Aquí, solo quienes están listos para volar más alto despegan',
     aboutSubtitle: 'Desde 2020, Plenn Digital no sigue el mercado. Acelera, transforma y redefine las reglas con inteligencia artificial y estrategias de alto rendimiento.',
+    aboutPageTitle: 'Nosotros',
+    aboutPageSubtitle: 'Conoce nuestra historia y metodología',
+    aboutPageButton: 'Contáctanos',
     
     // Services Page
     servicesPageTitle: 'Soluciones Completas para tu Crecimiento Digital',
     servicesPageSubtitle: 'No importa el desafío, tenemos la solución ideal para acelerar tu crecimiento. Cada servicio está potenciado por inteligencia artificial y estrategias de alto rendimiento.',
     
+    // Individual Services
+    paidMedia: 'Medios Pagados',
+    contentSeo: 'Contenido & SEO',
+    socialMedia: 'Redes Sociales',
+    webDev: 'Desarrollo Web',
+    aiAutomation: 'IA & Automatización',
+    consulting: 'Consultoría',
+    
     // Cases Page
     casesTitle: 'Casos de Éxito',
     casesSubtitle: 'Resultados reales de clientes que confiaron en nuestra metodología',
+    casesPageTitle: 'Casos de Éxito',
+    casesPageSubtitle: 'Resultados reales que transformaron negocios',
+    casesPageButton: 'Quiero Mi Consultoría Gratuita',
     
     // Contact Page
     contactTitle: '¿Vamos a Acelerar tu Negocio?',
     contactSubtitle: 'Contáctanos y descubre cómo podemos transformar tus resultados',
+    contactPageTitle: 'Contacto',
+    contactPageSubtitle: 'Estamos listos para acelerar tu crecimiento digital',
     nameLabel: 'Nombre',
     emailLabel: 'Email',
     phoneLabel: 'Teléfono',
