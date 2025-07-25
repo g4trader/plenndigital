@@ -1,6 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { LanguageProvider } from './contexts/LanguageContext';
+import ErrorBoundary from './components/ErrorBoundary';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -14,23 +15,26 @@ import './App.css';
 
 function App() {
   return (
-    <LanguageProvider>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="sobre-nos" element={<About />} />
-            <Route path="servicos" element={<Services />} />
-            <Route path="servicos/midia-paga" element={<PaidMedia />} />
-            <Route path="servicos/content-seo" element={<ContentSEO />} />
-            <Route path="servicos/redes-sociais" element={<SocialMedia />} />
-            <Route path="cases" element={<Cases />} />
-            <Route path="contato" element={<Contact />} />
-            {/* Outras páginas de serviços serão adicionadas */}
-          </Route>
-        </Routes>
-      </Router>
-    </LanguageProvider>
+    <ErrorBoundary>
+      <LanguageProvider>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="sobre-nos" element={<About />} />
+              <Route path="servicos" element={<Services />} />
+              <Route path="servicos/midia-paga" element={<PaidMedia />} />
+              <Route path="servicos/content-seo" element={<ContentSEO />} />
+              <Route path="servicos/redes-sociais" element={<SocialMedia />} />
+              <Route path="cases" element={<Cases />} />
+              <Route path="contato" element={<Contact />} />
+              {/* Rota de fallback para URLs não encontradas */}
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Route>
+          </Routes>
+        </Router>
+      </LanguageProvider>
+    </ErrorBoundary>
   );
 }
 
