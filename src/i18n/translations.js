@@ -5,7 +5,7 @@ export const translations = {
     about: 'Sobre Nós',
     services: 'Serviços',
     cases: 'Cases',
-    blog: 'Blog',
+    blog: 'Aprenda Marketing',
     contact: 'Contato',
     freeAnalysis: 'Análise Gratuita',
     
@@ -84,7 +84,7 @@ export const translations = {
     about: 'About Us',
     services: 'Services',
     cases: 'Cases',
-    blog: 'Blog',
+    blog: 'Learn Marketing',
     contact: 'Contact',
     freeAnalysis: 'Free Analysis',
     
@@ -163,7 +163,7 @@ export const translations = {
     about: 'Nosotros',
     services: 'Servicios',
     cases: 'Casos',
-    blog: 'Blog',
+    blog: 'Aprende Marketing',
     contact: 'Contacto',
     freeAnalysis: 'Análisis Gratuito',
     

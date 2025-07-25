@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Target, Users, TrendingUp, Award, Brain, Zap } from 'lucide-react';
+import { ArrowRight, Target, Users, Award, TrendingUp, Brain, Zap } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const About = () => {
+  const { t } = useLanguage();
+  
   return (
     <div className="min-h-screen">
       {/* Hero Section */}

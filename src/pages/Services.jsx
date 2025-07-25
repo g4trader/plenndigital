@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Zap, Target, TrendingUp, Brain, Users, BarChart3 } from 'lucide-react';
+import { ArrowRight, Target, BarChart3, Users, Code, Bot, MessageSquare } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Services = () => {
+  const { t } = useLanguage();
+  
   const services = [
     {
       icon: Zap,

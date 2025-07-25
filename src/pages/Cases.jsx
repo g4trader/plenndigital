@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, TrendingUp, Target, Users, Zap, BarChart3, Award } from 'lucide-react';
+import { ArrowRight, TrendingUp, Users, DollarSign, Target, BarChart3, Zap } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Cases = () => {
+  const { t } = useLanguage();
+  
   const cases = [
     {
       client: 'TechStart Solutions',
