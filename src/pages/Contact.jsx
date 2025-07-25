@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, MessageCircle, Send } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Contact = () => {
+  const { t } = useLanguage();
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -54,14 +57,10 @@ const Contact = () => {
       <section className="relative py-20 bg-gradient-to-br from-slate-900 via-blue-900/20 to-purple-900/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Vamos{' '}
-            <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              Acelerar
-            </span>{' '}
-            Seu Negócio?
+            {t('contactPageTitle')}
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Entre em contato conosco e descubra como podemos transformar seus resultados digitais
+            {t('contactPageSubtitle')}
           </p>
         </div>
       </section>

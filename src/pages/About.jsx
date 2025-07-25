@@ -4,7 +4,7 @@ import { ArrowRight, Target, Users, Award, TrendingUp, Brain, Zap } from 'lucide
 import { useLanguage } from '../contexts/LanguageContext';
 
 const About = () => {
-  // const { t } = useLanguage(); // Temporariamente desabilitado
+  const { t } = useLanguage();
   
   return (
     <div className="min-h-screen">
@@ -15,27 +15,17 @@ const About = () => {
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Aqui, só{' '}
-            <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              decola
-            </span>{' '}
-            quem está pronto para{' '}
-            <span className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
-              voar mais alto
-            </span>
+               <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            {t('aboutPageTitle')}
           </h1>
-          
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto">
-            Desde 2020, a Plenn Digital não segue o mercado. Ela acelera, transforma e redefine 
-            as regras do jogo com inteligência artificial e estratégias de alta performance.
+            {t('aboutPageSubtitle')}
           </p>
-          
           <Link
             to="/contato"
             className="inline-flex items-center bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-200"
           >
-            Descubra Como Aceleramos Negócios
+            {t('aboutPageButton')}
             <ArrowRight className="ml-2 h-5 w-5" />
           </Link>
         </div>

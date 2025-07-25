@@ -68,6 +68,41 @@ export const translations = {
     ctaSubtitle: 'Entre em contato conosco e descubra como podemos transformar seu negócio digital',
     ctaButton: 'Quero Minha Análise Gratuita',
     
+    // About Page
+    aboutPageTitle: 'Aqui, só decola quem está pronto para voar mais alto',
+    aboutPageSubtitle: 'Desde 2020, a Plenn Digital não segue o mercado. Ela acelera, transforma e redefine as regras do jogo com inteligência artificial e estratégias de alta performance.',
+    aboutPageButton: 'Descubra Como Aceleramos Negócios',
+    
+    // Services Page
+    servicesPageTitle: 'Soluções Completas para Seu Crescimento Digital',
+    servicesPageSubtitle: 'Não importa o desafio, temos a solução ideal para acelerar seu crescimento. Cada serviço é potencializado por inteligência artificial e estratégias de alta performance.',
+    servicesPageButton: 'Vamos Acelerar Seu Negócio',
+    
+    // Cases Page
+    casesPageTitle: 'Cases de Sucesso',
+    casesPageSubtitle: 'Conheça empresas que transformaram seus resultados com nossas estratégias de marketing digital e inteligência artificial',
+    casesPageButton: 'Quero Resultados Como Estes',
+    
+    // Contact Page
+    contactPageTitle: 'Vamos Acelerar Seu Negócio?',
+    contactPageSubtitle: 'Entre em contato conosco e descubra como podemos transformar seus resultados digitais',
+    contactFormTitle: 'Solicite sua Análise Gratuita',
+    contactInfoTitle: 'Entre em Contato',
+    
+    // Form Fields
+    nameLabel: 'Nome Completo',
+    emailLabel: 'E-mail',
+    phoneLabel: 'Telefone',
+    companyLabel: 'Empresa',
+    serviceLabel: 'Serviço de Interesse',
+    messageLabel: 'Mensagem',
+    sendButton: 'Enviar Mensagem',
+    
+    // Common
+    learnMore: 'Saiba Mais',
+    getStarted: 'Começar Agora',
+    freeConsultation: 'Consultoria Gratuita',
+    
     // Footer
     quickLinks: 'Links Rápidos',
     servicesFooter: 'Serviços',
@@ -129,7 +164,7 @@ export const translations = {
     processSubtitle: 'Our proven 4-step methodology to ensure exceptional results',
     
     step1Title: 'Strategic Analysis',
-    step1Desc: 'Complete business audit, opportunity identification and goal definition',
+    step1Desc: 'Complete business audit, opportunity identification and goal setting',
     
     step2Title: 'Intelligent Planning',
     step2Desc: 'Personalized strategy with AI implementation and execution timeline',
@@ -145,7 +180,42 @@ export const translations = {
     ctaTitleHighlight: 'Accelerate',
     ctaTitle2: 'Your Growth?',
     ctaSubtitle: 'Contact us and discover how we can transform your digital business',
-    ctaButton: 'I Want My Free Analysis',
+    ctaButton: 'Get My Free Analysis',
+    
+    // About Page
+    aboutPageTitle: 'Here, only those ready to fly higher take off',
+    aboutPageSubtitle: 'Since 2020, Plenn Digital doesn\'t follow the market. It accelerates, transforms and redefines the rules with artificial intelligence and high-performance strategies.',
+    aboutPageButton: 'Discover How We Accelerate Businesses',
+    
+    // Services Page
+    servicesPageTitle: 'Complete Solutions for Your Digital Growth',
+    servicesPageSubtitle: 'No matter the challenge, we have the ideal solution to accelerate your growth. Each service is powered by artificial intelligence and high-performance strategies.',
+    servicesPageButton: 'Let\'s Accelerate Your Business',
+    
+    // Cases Page
+    casesPageTitle: 'Success Cases',
+    casesPageSubtitle: 'Meet companies that transformed their results with our digital marketing and artificial intelligence strategies',
+    casesPageButton: 'I Want Results Like These',
+    
+    // Contact Page
+    contactPageTitle: 'Let\'s Accelerate Your Business?',
+    contactPageSubtitle: 'Contact us and discover how we can transform your digital results',
+    contactFormTitle: 'Request Your Free Analysis',
+    contactInfoTitle: 'Get in Touch',
+    
+    // Form Fields
+    nameLabel: 'Full Name',
+    emailLabel: 'Email',
+    phoneLabel: 'Phone',
+    companyLabel: 'Company',
+    serviceLabel: 'Service of Interest',
+    messageLabel: 'Message',
+    sendButton: 'Send Message',
+    
+    // Common
+    learnMore: 'Learn More',
+    getStarted: 'Get Started',
+    freeConsultation: 'Free Consultation',
     
     // Footer
     quickLinks: 'Quick Links',
@@ -176,10 +246,10 @@ export const translations = {
     // About Section
     aboutTitle: 'No somos solo una agencia.',
     aboutTitleHighlight: 'Somos tus socios de crecimiento.',
-    aboutSubtitle: 'Plenn Digital combina tecnología de vanguardia con estrategias eficientes para potenciar el rendimiento y ROI de negocios en diversos segmentos.',
+    aboutSubtitle: 'Plenn Digital combina tecnología de punta con estrategias eficientes para potenciar el rendimiento y ROI de negocios en diversos segmentos.',
     
     // Services
-    servicesTitle: 'Soluciones Completas para tu',
+    servicesTitle: 'Soluciones Completas para Tu',
     servicesTitleHighlight: 'Crecimiento Digital',
     servicesSubtitle: 'No importa el desafío, tenemos la solución ideal para acelerar tu crecimiento',
     
@@ -193,10 +263,10 @@ export const translations = {
     socialMediaDesc: 'Planificación, creación y gestión enfocada en engagement y conversión',
     
     webDev: 'Diseño Web & Desarrollo',
-    webDevDesc: 'Sitios web modernos y responsivos con experiencia de usuario optimizada',
+    webDevDesc: 'Sitios modernos y responsivos con experiencia de usuario optimizada',
     
     aiAutomation: 'Atención al Cliente por IA',
-    aiAutomationDesc: 'Chatbots inteligentes con atención personalizada 24/7',
+    aiAutomationDesc: 'Chatbots inteligentes con atención 24/7 personalizada',
     
     consulting: 'Consultoría Estratégica',
     consultingDesc: 'Análisis completo del negocio y planificación de crecimiento',
@@ -205,7 +275,7 @@ export const translations = {
     processTitle: 'Cómo',
     processTitleHighlight: 'Transformamos',
     processTitle2: 'Tu Negocio',
-    processSubtitle: 'Nuestra metodología probada en 4 etapas para garantizar resultados excepcionales',
+    processSubtitle: 'Nuestra metodología comprobada en 4 etapas para garantizar resultados excepcionales',
     
     step1Title: 'Análisis Estratégico',
     step1Desc: 'Auditoría completa del negocio, identificación de oportunidades y definición de objetivos',
@@ -213,18 +283,53 @@ export const translations = {
     step2Title: 'Planificación Inteligente',
     step2Desc: 'Estrategia personalizada con implementación de IA y cronograma de ejecución',
     
-    step3Title: 'Ejecución y Optimización',
+    step3Title: 'Ejecución & Optimización',
     step3Desc: 'Implementación de campañas con monitoreo en tiempo real y ajustes basados en datos',
     
-    step4Title: 'Resultados y Escalabilidad',
+    step4Title: 'Resultados & Escalabilidad',
     step4Desc: 'Reportes detallados, análisis de ROI y planificación de crecimiento continuo',
     
     // CTA
-    ctaTitle: '¿Listo para',
+    ctaTitle: 'Listo para',
     ctaTitleHighlight: 'Acelerar',
-    ctaTitle2: 'tu Crecimiento?',
+    ctaTitle2: 'Tu Crecimiento?',
     ctaSubtitle: 'Contáctanos y descubre cómo podemos transformar tu negocio digital',
     ctaButton: 'Quiero Mi Análisis Gratuito',
+    
+    // About Page
+    aboutPageTitle: 'Aquí, solo despega quien está listo para volar más alto',
+    aboutPageSubtitle: 'Desde 2020, Plenn Digital no sigue el mercado. Acelera, transforma y redefine las reglas con inteligencia artificial y estrategias de alto rendimiento.',
+    aboutPageButton: 'Descubre Cómo Aceleramos Negocios',
+    
+    // Services Page
+    servicesPageTitle: 'Soluciones Completas para Tu Crecimiento Digital',
+    servicesPageSubtitle: 'No importa el desafío, tenemos la solución ideal para acelerar tu crecimiento. Cada servicio está potenciado por inteligencia artificial y estrategias de alto rendimiento.',
+    servicesPageButton: 'Vamos a Acelerar Tu Negocio',
+    
+    // Cases Page
+    casesPageTitle: 'Casos de Éxito',
+    casesPageSubtitle: 'Conoce empresas que transformaron sus resultados con nuestras estrategias de marketing digital e inteligencia artificial',
+    casesPageButton: 'Quiero Resultados Como Estos',
+    
+    // Contact Page
+    contactPageTitle: '¿Vamos a Acelerar Tu Negocio?',
+    contactPageSubtitle: 'Contáctanos y descubre cómo podemos transformar tus resultados digitales',
+    contactFormTitle: 'Solicita tu Análisis Gratuito',
+    contactInfoTitle: 'Ponte en Contacto',
+    
+    // Form Fields
+    nameLabel: 'Nombre Completo',
+    emailLabel: 'Email',
+    phoneLabel: 'Teléfono',
+    companyLabel: 'Empresa',
+    serviceLabel: 'Servicio de Interés',
+    messageLabel: 'Mensaje',
+    sendButton: 'Enviar Mensaje',
+    
+    // Common
+    learnMore: 'Saber Más',
+    getStarted: 'Comenzar Ahora',
+    freeConsultation: 'Consultoría Gratuita',
     
     // Footer
     quickLinks: 'Enlaces Rápidos',
