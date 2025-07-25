@@ -12,7 +12,8 @@ const translations = {
     allServices: 'Todos os Serviços',
     
     // Hero Section
-    heroTitle: 'Transformamos Dados em Resultados Reais',
+    heroTitle: 'Transformamos Dados em',
+    heroTitleHighlight: 'Resultados Reais',
     heroSubtitle: 'Desde 2020, ajudamos empresas a crescer com estratégias ousadas, dados precisos e um time de elite. Se sua meta é escalar, nós temos o combustível.',
     heroButton: 'Entenda como trabalhamos',
     
@@ -72,7 +73,8 @@ const translations = {
     allServices: 'All Services',
     
     // Hero Section
-    heroTitle: 'We Transform Data into Real Results',
+    heroTitle: 'We Transform Data into',
+    heroTitleHighlight: 'Real Results',
     heroSubtitle: 'Since 2020, we help companies grow with bold strategies, precise data and an elite team. If your goal is to scale, we have the fuel.',
     heroButton: 'Understand how we work',
     
@@ -132,7 +134,8 @@ const translations = {
     allServices: 'Todos los Servicios',
     
     // Hero Section
-    heroTitle: 'Transformamos Datos en Resultados Reales',
+    heroTitle: 'Transformamos Datos en',
+    heroTitleHighlight: 'Resultados Reales',
     heroSubtitle: 'Desde 2020, ayudamos a empresas a crecer con estrategias audaces, datos precisos y un equipo de élite. Si tu meta es escalar, tenemos el combustible.',
     heroButton: 'Entiende cómo trabajamos',
     

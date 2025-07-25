@@ -12,7 +12,7 @@ export const useLanguage = () => {
 };
 
 export const LanguageProvider = ({ children }) => {
-  const [currentLanguage, setCurrentLanguage] = useState('pt-BR');
+  const [currentLanguage, setCurrentLanguage] = useState('pt');
 
   useEffect(() => {
     // Verificar se há idioma salvo no localStorage
@@ -38,7 +38,7 @@ export const LanguageProvider = ({ children }) => {
     changeLanguage,
     t,
     availableLanguages: [
-      { code: 'pt-BR', name: 'Português', flag: '/flag-br.png' },
+      { code: 'pt', name: 'Português', flag: '/flag-br.png' },
       { code: 'en', name: 'English', flag: '/flag-us.png' },
       { code: 'es', name: 'Español', flag: '/flag-es.png' }
     ]
