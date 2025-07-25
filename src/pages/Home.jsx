@@ -71,14 +71,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Não somos apenas uma agência.{' '}
-              <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                Somos seus parceiros de crescimento.
-              </span>
+              {t('homePartnershipTitle')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">{t('homePartnershipHighlight')}</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-              A Plenn Digital combina tecnologia de ponta com estratégias eficientes para 
-              potencializar a performance e o ROI de negócios em diversos segmentos.
+              {t('homePartnershipSubtitle')}
             </p>
           </div>
 
@@ -87,9 +83,9 @@ const Home = () => {
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
                 <Brain className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Inteligência Artificial</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('aiCardTitle')}</h3>
               <p className="text-gray-300">
-                Automação e personalização avançada para otimizar cada interação com seus clientes
+                {t('aiCardDescription')}
               </p>
             </div>
 
@@ -97,9 +93,9 @@ const Home = () => {
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-6">
                 <BarChart3 className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Dados Estratégicos</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('strategicDataTitle')}</h3>
               <p className="text-gray-300">
-                Decisões baseadas em métricas precisas e análises profundas do comportamento do mercado
+                {t('strategicDataDescription')}
               </p>
             </div>
 
@@ -107,9 +103,9 @@ const Home = () => {
               <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-red-600 rounded-xl flex items-center justify-center mb-6">
                 <Target className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Resultados Mensuráveis</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('measurableResultsTitle')}</h3>
               <p className="text-gray-300">
-                ROI comprovado com relatórios detalhados e transparência total nos resultados
+                {t('measurableResultsDescription')}
               </p>
             </div>
           </div>

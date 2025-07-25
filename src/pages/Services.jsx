@@ -9,48 +9,48 @@ const Services = () => {
   const services = [
     {
       icon: Zap,
-      title: 'Gestão de Mídia Paga',
-      description: 'Google Ads, Facebook Ads, LinkedIn Ads com otimização por IA para máximo ROI',
+      title: t('paidMediaTitle'),
+      description: t('paidMediaDescription'),
       features: ['Campanhas otimizadas por IA', 'ROI médio superior a 12x', 'Relatórios em tempo real', 'Segmentação avançada'],
       link: '/servicos/midia-paga',
       gradient: 'from-blue-500 to-purple-600'
     },
     {
       icon: TrendingUp,
-      title: 'Marketing de Conteúdo & SEO',
-      description: 'Produção de conteúdo estratégico e otimização para buscadores',
+      title: t('contentSeoTitle'),
+      description: t('contentSeoDescription'),
       features: ['Conteúdo otimizado para IA', 'Estratégia de palavras-chave', 'Link building avançado', 'Análise de concorrência'],
       link: '/servicos/content-seo',
       gradient: 'from-purple-500 to-pink-600'
     },
     {
       icon: Users,
-      title: 'Gestão de Redes Sociais',
-      description: 'Planejamento, criação e gestão focada em engajamento e conversão',
+      title: t('socialMediaTitle'),
+      description: t('socialMediaDescription'),
       features: ['Estratégia de conteúdo', 'Automação inteligente', 'Análise de performance', 'Community management'],
       link: '/servicos/redes-sociais',
       gradient: 'from-pink-500 to-red-600'
     },
     {
       icon: Brain,
-      title: 'Web Design & Desenvolvimento',
-      description: 'Sites modernos e responsivos com experiência do usuário otimizada',
+      title: t('webDevTitle'),
+      description: t('webDevDescription'),
       features: ['Design responsivo', 'Performance otimizada', 'SEO técnico', 'Integração com IA'],
       link: '/servicos/web-development',
       gradient: 'from-red-500 to-orange-600'
     },
     {
       icon: Target,
-      title: 'Autoatendimento por IA',
-      description: 'Chatbots inteligentes com atendimento 24/7 personalizado',
+      title: t('aiAutomationTitle'),
+      description: t('aiAutomationDescription'),
       features: ['IA conversacional', 'Integração omnichannel', 'Aprendizado contínuo', 'Análise de sentimento'],
       link: '/servicos/ai-automation',
       gradient: 'from-orange-500 to-yellow-600'
     },
     {
-      icon: BarChart3,
-      title: 'Consultoria Estratégica',
-      description: 'Análise completa do negócio e planejamento de crescimento',
+      icon: Award,
+      title: t('consultingTitle'),
+      description: t('consultingDescription'),
       features: ['Auditoria completa', 'Estratégia personalizada', 'Implementação guiada', 'Mentoria executiva'],
       link: '/servicos/consultoria',
       gradient: 'from-green-500 to-blue-600'
