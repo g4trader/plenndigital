@@ -67,7 +67,7 @@ const Header = () => {
                       className="block px-4 py-3 text-sm text-gray-300 hover:bg-slate-700 hover:text-white transition-colors rounded-t-lg"
                       onClick={() => setIsServicesOpen(false)}
                     >
-                      Todos os Serviços
+                      {t('allServices')}
                     </Link>
                     <Link
                       to="/servicos/midia-paga"
@@ -125,14 +125,14 @@ const Header = () => {
               {t('cases')}
             </Link>
             
-            <Link
-              to="/blog"
-              className={`text-sm font-medium transition-colors ${
-                isActive('/blog') ? 'text-blue-400' : 'text-gray-300 hover:text-white'
-              }`}
+            <a
+              href="https://blog.plenndigital.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium transition-colors text-gray-300 hover:text-white"
             >
               {t('blog')}
-            </Link>
+            </a>
             
             <Link
               to="/contato"
@@ -210,15 +210,15 @@ const Header = () => {
                 {t('cases')}
               </Link>
               
-              <Link
-                to="/blog"
-                className={`block px-3 py-2 text-base font-medium transition-colors ${
-                  isActive('/blog') ? 'text-blue-400' : 'text-gray-300 hover:text-white'
-                }`}
+              <a
+                href="https://blog.plenndigital.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-3 py-2 text-base font-medium transition-colors text-gray-300 hover:text-white"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('blog')}
-              </Link>
+              </a>
               
               <Link
                 to="/contato"
