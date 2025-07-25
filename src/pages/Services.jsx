@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Target, BarChart3, Users, Code, Bot, MessageSquare, Zap, TrendingUp, Brain } from 'lucide-react';
+import { ArrowRight, Target, BarChart3, Users, Code, Bot, MessageSquare, Zap, TrendingUp, Brain, Award } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Services = () => {
