@@ -32,11 +32,11 @@ export const translations = {
     measurableResultsTitle: 'Resultados Mensuráveis',
     measurableResultsDescription: 'ROI comprovado com relatórios detalhados e transparência total nos resultados.',
     
-    // Services
+    // Services Section Home
     servicesTitle: 'Soluções Completas para Seu Crescimento Digital',
     servicesSubtitle: 'Não importa o desafio, temos a solução ideal para acelerar seu crescimento. Cada serviço é potencializado por inteligência artificial e estratégias de alta performance.',
     
-    // Services Cards
+    // Services Cards Home
     paidMediaTitle: 'Gestão de Mídia Paga',
     paidMediaDescription: 'Google Ads, Facebook Ads, LinkedIn Ads com otimização por IA para máximo ROI',
     
@@ -61,10 +61,32 @@ export const translations = {
     methodologySubtitle: 'Exclusiva',
     methodologyDescription: 'Cada projeto segue nossa metodologia comprovada, garantindo resultados excepcionais e crescimento sustentável para seu negócio.',
     
+    // Methodology Steps
+    methodologyStep1Title: 'Análise & Diagnóstico',
+    methodologyStep1Description: 'Auditoria completa do seu negócio, concorrência e oportunidades de mercado.',
+    
+    methodologyStep2Title: 'Estratégia Personalizada',
+    methodologyStep2Description: 'Desenvolvimento de plano estratégico customizado para seus objetivos específicos.',
+    
+    methodologyStep3Title: 'Execução & Otimização',
+    methodologyStep3Description: 'Implementação das estratégias com monitoramento contínuo e ajustes baseados em dados.',
+    
+    methodologyStep4Title: 'Resultados & Escala',
+    methodologyStep4Description: 'Análise de resultados e escalabilidade para crescimento sustentável do negócio.',
+    
     // Why Choose Us Section
     whyChooseTitle: 'Por que escolher a',
     whyChooseHighlight: 'Plenn Digital?',
     whyChooseSubtitle: 'Não somos apenas mais uma agência. Somos especialistas em transformar dados em resultados reais através de tecnologia de ponta.',
+    
+    whyChoose1Title: 'IA em Tudo',
+    whyChoose1Description: 'Inteligência artificial integrada em todos os processos para máxima eficiência.',
+    
+    whyChoose2Title: 'Resultados Garantidos',
+    whyChoose2Description: 'Metodologia comprovada com foco em ROI e crescimento sustentável.',
+    
+    whyChoose3Title: 'Parceria Verdadeira',
+    whyChoose3Description: 'Relacionamento de longo prazo focado no sucesso mútuo e crescimento conjunto.',
     
     // CTA Section
     ctaTitle: 'Pronto para',
@@ -72,6 +94,7 @@ export const translations = {
     ctaSubtitle: 'Seu Negócio?',
     ctaDescription: 'Escolha o serviço ideal para seu negócio e solicite uma consultoria personalizada para descobrir as melhores oportunidades de crescimento.',
     ctaButton: 'Solicitar Consultoria Gratuita',
+    ctaSecondaryButton: 'Ver Cases de Sucesso',
     
     // Common
     learnMore: 'Saiba Mais',
@@ -94,6 +117,7 @@ export const translations = {
     
     servicesPageTitle: 'Soluções Completas para Seu Crescimento Digital',
     servicesPageSubtitle: 'Não importa o desafio, temos a solução ideal para acelerar seu crescimento.',
+    servicesPageButton: 'Solicitar Consultoria',
     
     casesPageTitle: 'Cases de Sucesso',
     casesPageSubtitle: 'Resultados reais que transformaram negócios',
@@ -136,11 +160,11 @@ export const translations = {
     measurableResultsTitle: 'Measurable Results',
     measurableResultsDescription: 'Proven ROI with detailed reports and total transparency in results.',
     
-    // Services
+    // Services Section Home
     servicesTitle: 'Complete Solutions for Your Digital Growth',
     servicesSubtitle: 'No matter the challenge, we have the ideal solution to accelerate your growth. Each service is powered by artificial intelligence and high-performance strategies.',
     
-    // Services Cards
+    // Services Cards Home
     paidMediaTitle: 'Paid Media Management',
     paidMediaDescription: 'Google Ads, Facebook Ads, LinkedIn Ads with AI optimization for maximum ROI',
     
@@ -165,10 +189,32 @@ export const translations = {
     methodologySubtitle: 'Exclusive',
     methodologyDescription: 'Each project follows our proven methodology, ensuring exceptional results and sustainable growth for your business.',
     
+    // Methodology Steps
+    methodologyStep1Title: 'Analysis & Diagnosis',
+    methodologyStep1Description: 'Complete audit of your business, competition and market opportunities.',
+    
+    methodologyStep2Title: 'Personalized Strategy',
+    methodologyStep2Description: 'Development of customized strategic plan for your specific objectives.',
+    
+    methodologyStep3Title: 'Execution & Optimization',
+    methodologyStep3Description: 'Implementation of strategies with continuous monitoring and data-based adjustments.',
+    
+    methodologyStep4Title: 'Results & Scale',
+    methodologyStep4Description: 'Results analysis and scalability for sustainable business growth.',
+    
     // Why Choose Us Section
     whyChooseTitle: 'Why choose',
     whyChooseHighlight: 'Plenn Digital?',
     whyChooseSubtitle: 'We are not just another agency. We are specialists in transforming data into real results through cutting-edge technology.',
+    
+    whyChoose1Title: 'AI in Everything',
+    whyChoose1Description: 'Artificial intelligence integrated in all processes for maximum efficiency.',
+    
+    whyChoose2Title: 'Guaranteed Results',
+    whyChoose2Description: 'Proven methodology focused on ROI and sustainable growth.',
+    
+    whyChoose3Title: 'True Partnership',
+    whyChoose3Description: 'Long-term relationship focused on mutual success and joint growth.',
     
     // CTA Section
     ctaTitle: 'Ready to',
@@ -176,6 +222,7 @@ export const translations = {
     ctaSubtitle: 'Your Business?',
     ctaDescription: 'Choose the ideal service for your business and request a personalized consultation to discover the best growth opportunities.',
     ctaButton: 'Request Free Consultation',
+    ctaSecondaryButton: 'View Success Cases',
     
     // Common
     learnMore: 'Learn More',
@@ -198,6 +245,7 @@ export const translations = {
     
     servicesPageTitle: 'Complete Solutions for Your Digital Growth',
     servicesPageSubtitle: 'No matter the challenge, we have the ideal solution to accelerate your growth.',
+    servicesPageButton: 'Request Consultation',
     
     casesPageTitle: 'Success Cases',
     casesPageSubtitle: 'Real results that transformed businesses',
@@ -240,11 +288,11 @@ export const translations = {
     measurableResultsTitle: 'Resultados Medibles',
     measurableResultsDescription: 'ROI comprobado con informes detallados y transparencia total en los resultados.',
     
-    // Services
+    // Services Section Home
     servicesTitle: 'Soluciones Completas para tu Crecimiento Digital',
     servicesSubtitle: 'No importa el desafío, tenemos la solución ideal para acelerar tu crecimiento. Cada servicio está potenciado por inteligencia artificial y estrategias de alto rendimiento.',
     
-    // Services Cards
+    // Services Cards Home
     paidMediaTitle: 'Gestión de Medios Pagados',
     paidMediaDescription: 'Google Ads, Facebook Ads, LinkedIn Ads con optimización por IA para máximo ROI',
     
@@ -269,10 +317,32 @@ export const translations = {
     methodologySubtitle: 'Exclusiva',
     methodologyDescription: 'Cada proyecto sigue nuestra metodología comprobada, garantizando resultados excepcionales y crecimiento sostenible para tu negocio.',
     
+    // Methodology Steps
+    methodologyStep1Title: 'Análisis & Diagnóstico',
+    methodologyStep1Description: 'Auditoría completa de tu negocio, competencia y oportunidades de mercado.',
+    
+    methodologyStep2Title: 'Estrategia Personalizada',
+    methodologyStep2Description: 'Desarrollo de plan estratégico personalizado para tus objetivos específicos.',
+    
+    methodologyStep3Title: 'Ejecución & Optimización',
+    methodologyStep3Description: 'Implementación de estrategias con monitoreo continuo y ajustes basados en datos.',
+    
+    methodologyStep4Title: 'Resultados & Escala',
+    methodologyStep4Description: 'Análisis de resultados y escalabilidad para crecimiento sostenible del negocio.',
+    
     // Why Choose Us Section
     whyChooseTitle: 'Por qué elegir',
     whyChooseHighlight: 'Plenn Digital?',
     whyChooseSubtitle: 'No somos solo otra agencia. Somos especialistas en transformar datos en resultados reales a través de tecnología de vanguardia.',
+    
+    whyChoose1Title: 'IA en Todo',
+    whyChoose1Description: 'Inteligencia artificial integrada en todos los procesos para máxima eficiencia.',
+    
+    whyChoose2Title: 'Resultados Garantizados',
+    whyChoose2Description: 'Metodología comprobada enfocada en ROI y crecimiento sostenible.',
+    
+    whyChoose3Title: 'Sociedad Verdadera',
+    whyChoose3Description: 'Relación a largo plazo enfocada en el éxito mutuo y crecimiento conjunto.',
     
     // CTA Section
     ctaTitle: 'Listo para',
@@ -280,6 +350,7 @@ export const translations = {
     ctaSubtitle: 'tu Negocio?',
     ctaDescription: 'Elige el servicio ideal para tu negocio y solicita una consultoría personalizada para descubrir las mejores oportunidades de crecimiento.',
     ctaButton: 'Solicitar Consultoría Gratuita',
+    ctaSecondaryButton: 'Ver Casos de Éxito',
     
     // Common
     learnMore: 'Saber Más',
@@ -302,6 +373,7 @@ export const translations = {
     
     servicesPageTitle: 'Soluciones Completas para tu Crecimiento Digital',
     servicesPageSubtitle: 'No importa el desafío, tenemos la solución ideal para acelerar tu crecimiento.',
+    servicesPageButton: 'Solicitar Consultoría',
     
     casesPageTitle: 'Casos de Éxito',
     casesPageSubtitle: 'Resultados reales que transformaron negocios',
