@@ -193,6 +193,32 @@ export const translations = {
     aboutCtaSubtitle: 'Acelerar vendas exige método, tecnologia e um time de elite. E nós temos tudo isso.',
     aboutCtaButton: 'Vamos Acelerar Seu Crescimento',
     
+    // Footer
+    footerDescription: 'Transformamos dados em resultados reais através de inteligência artificial e estratégias afiadas.',
+    footerQuickLinks: 'Links Rápidos',
+    footerServices: 'Serviços',
+    footerContact: 'Contato',
+    footerFreeAnalysis: 'Análise Gratuita',
+    footerCopyright: '© 2024 Plenn Digital. Todos os direitos reservados.',
+    footerPrivacyPolicy: 'Política de Privacidade',
+    footerTermsOfUse: 'Termos de Uso',
+    
+    // Footer Links
+    footerHome: 'Home',
+    footerAbout: 'Sobre Nós',
+    footerServicesLink: 'Serviços',
+    footerCases: 'Cases',
+    footerBlog: 'Blog',
+    footerContactLink: 'Contato',
+    
+    // Footer Services
+    footerPaidMedia: 'Mídia Paga',
+    footerContentSEO: 'Content & SEO',
+    footerSocialMedia: 'Redes Sociais',
+    footerWebDev: 'Web Development',
+    footerAIAutomation: 'IA & Automação',
+    footerConsulting: 'Consultoria',
+    
     servicesPageTitle: 'Soluções Completas para Seu Crescimento Digital',
     servicesPageSubtitle: 'Não importa o desafio, temos a solução ideal para acelerar seu crescimento.',
     servicesPageButton: 'Solicitar Consultoria',
@@ -399,6 +425,32 @@ export const translations = {
     aboutCtaSubtitle: 'Accelerating sales requires method, technology and an elite team. And we have all of that.',
     aboutCtaButton: 'Let\'s Accelerate Your Growth',
     
+    // Footer
+    footerDescription: 'We transform data into real results through artificial intelligence and sharp strategies.',
+    footerQuickLinks: 'Quick Links',
+    footerServices: 'Services',
+    footerContact: 'Contact',
+    footerFreeAnalysis: 'Free Analysis',
+    footerCopyright: '© 2024 Plenn Digital. All rights reserved.',
+    footerPrivacyPolicy: 'Privacy Policy',
+    footerTermsOfUse: 'Terms of Use',
+    
+    // Footer Links
+    footerHome: 'Home',
+    footerAbout: 'About Us',
+    footerServicesLink: 'Services',
+    footerCases: 'Cases',
+    footerBlog: 'Blog',
+    footerContactLink: 'Contact',
+    
+    // Footer Services
+    footerPaidMedia: 'Paid Media',
+    footerContentSEO: 'Content & SEO',
+    footerSocialMedia: 'Social Media',
+    footerWebDev: 'Web Development',
+    footerAIAutomation: 'AI & Automation',
+    footerConsulting: 'Consulting',
+    
     servicesPageTitle: 'Complete Solutions for Your Digital Growth',
     servicesPageSubtitle: 'No matter the challenge, we have the ideal solution to accelerate your growth.',
     servicesPageButton: 'Request Consultation',
@@ -604,6 +656,32 @@ export const translations = {
     aboutCtaTitleEnd: ', el mejor momento para actuar es ahora',
     aboutCtaSubtitle: 'Acelerar ventas requiere método, tecnología y un equipo de élite. Y nosotros tenemos todo eso.',
     aboutCtaButton: 'Vamos a Acelerar tu Crecimiento',
+    
+    // Footer
+    footerDescription: 'Transformamos datos en resultados reales a través de inteligencia artificial y estrategias afiladas.',
+    footerQuickLinks: 'Enlaces Rápidos',
+    footerServices: 'Servicios',
+    footerContact: 'Contacto',
+    footerFreeAnalysis: 'Análisis Gratuito',
+    footerCopyright: '© 2024 Plenn Digital. Todos los derechos reservados.',
+    footerPrivacyPolicy: 'Política de Privacidad',
+    footerTermsOfUse: 'Términos de Uso',
+    
+    // Footer Links
+    footerHome: 'Inicio',
+    footerAbout: 'Nosotros',
+    footerServicesLink: 'Servicios',
+    footerCases: 'Casos',
+    footerBlog: 'Blog',
+    footerContactLink: 'Contacto',
+    
+    // Footer Services
+    footerPaidMedia: 'Medios Pagos',
+    footerContentSEO: 'Contenido & SEO',
+    footerSocialMedia: 'Redes Sociales',
+    footerWebDev: 'Desarrollo Web',
+    footerAIAutomation: 'IA & Automatización',
+    footerConsulting: 'Consultoría',
     
     servicesPageTitle: 'Soluciones Completas para tu Crecimiento Digital',
     servicesPageSubtitle: 'No importa el desafío, tenemos la solución ideal para acelerar tu crecimiento.',

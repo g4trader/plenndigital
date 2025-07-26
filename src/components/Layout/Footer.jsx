@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Linkedin, Instagram, Facebook } from 'lucide-react';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const Footer = () => {
+  const { t } = useLanguage();
+  
   return (
     <footer className="bg-slate-900 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -15,7 +18,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-gray-400 text-sm mb-6">
-              Transformamos dados em resultados reais através de inteligência artificial e estratégias afiadas.
+              {t('footerDescription')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
@@ -32,36 +35,36 @@ const Footer = () => {
 
           {/* Links Rápidos */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Links Rápidos</h3>
+            <h3 className="text-white font-semibold mb-4">{t('footerQuickLinks')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Home
+                  {t('footerHome')}
                 </Link>
               </li>
               <li>
                 <Link to="/sobre-nos" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Sobre Nós
+                  {t('footerAbout')}
                 </Link>
               </li>
               <li>
                 <Link to="/servicos" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Serviços
+                  {t('footerServicesLink')}
                 </Link>
               </li>
               <li>
                 <Link to="/cases" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Cases
+                  {t('footerCases')}
                 </Link>
               </li>
               <li>
                 <Link to="/blog" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Blog
+                  {t('footerBlog')}
                 </Link>
               </li>
               <li>
                 <Link to="/contato" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Contato
+                  {t('footerContactLink')}
                 </Link>
               </li>
             </ul>
@@ -69,36 +72,36 @@ const Footer = () => {
 
           {/* Serviços */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Serviços</h3>
+            <h3 className="text-white font-semibold mb-4">{t('footerServices')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/servicos/midia-paga" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Mídia Paga
+                  {t('footerPaidMedia')}
                 </Link>
               </li>
               <li>
                 <Link to="/servicos/content-seo" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Content & SEO
+                  {t('footerContentSEO')}
                 </Link>
               </li>
               <li>
                 <Link to="/servicos/redes-sociais" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Redes Sociais
+                  {t('footerSocialMedia')}
                 </Link>
               </li>
               <li>
                 <Link to="/servicos/web-development" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Web Development
+                  {t('footerWebDev')}
                 </Link>
               </li>
               <li>
                 <Link to="/servicos/ai-automation" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  IA & Automação
+                  {t('footerAIAutomation')}
                 </Link>
               </li>
               <li>
                 <Link to="/servicos/consultoria" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Consultoria
+                  {t('footerConsulting')}
                 </Link>
               </li>
             </ul>
@@ -106,7 +109,7 @@ const Footer = () => {
 
           {/* Contato */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Contato</h3>
+            <h3 className="text-white font-semibold mb-4">{t('footerContact')}</h3>
             <div className="space-y-3">
               <div className="flex items-center text-gray-400 text-sm">
                 <Phone className="h-4 w-4 mr-3 text-blue-400" />
@@ -130,7 +133,7 @@ const Footer = () => {
                 to="/contato"
                 className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-200"
               >
-                Análise Gratuita
+                {t('footerFreeAnalysis')}
               </Link>
             </div>
           </div>
@@ -139,14 +142,14 @@ const Footer = () => {
         <div className="border-t border-slate-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Plenn Digital. Todos os direitos reservados.
+              {t('footerCopyright')}
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Política de Privacidade
+                {t('footerPrivacyPolicy')}
               </a>
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Termos de Uso
+                {t('footerTermsOfUse')}
               </a>
             </div>
           </div>
