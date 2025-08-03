@@ -81,14 +81,14 @@ const Header = () => {
                       className="block px-4 py-3 text-sm text-gray-300 hover:bg-slate-700 hover:text-white transition-colors"
                       onClick={() => setIsServicesOpen(false)}
                     >
-                      {t('programmaticMediaTitle')}
+                      {t('programmaticMedia')}
                     </Link>
                     <Link
                       to="/servicos/content-seo"
                       className="block px-4 py-3 text-sm text-gray-300 hover:bg-slate-700 hover:text-white transition-colors"
                       onClick={() => setIsServicesOpen(false)}
                     >
-                      {t('contentSeo')}
+                      {t('contentSEO')}
                     </Link>
                     <Link
                       to="/servicos/redes-sociais"
@@ -102,7 +102,7 @@ const Header = () => {
                       className="block px-4 py-3 text-sm text-gray-300 hover:bg-slate-700 hover:text-white transition-colors"
                       onClick={() => setIsServicesOpen(false)}
                     >
-                      {t('webDev')}
+                      {t('webDevelopment')}
                     </Link>
                     <Link
                       to="/servicos/ai-automation"

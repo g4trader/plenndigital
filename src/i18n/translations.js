@@ -8,8 +8,15 @@ export const translations = {
     blog: 'Aprenda Marketing',
     contact: 'Contato',
     
-    // Submenu Services
+    // Submenu Services	
     allServices: 'Todos os Serviços',
+    paidMedia: 'Mídia Paga',
+    programmaticMedia: 'Mídia Programática',
+    contentSEO: 'SEO de conteúdo',
+    socialMedia: 'Redes Sociais',
+    webDevelopment: 'Desenvolvimento Web',
+    aiAutomation: 'IA e Automação',
+    consulting: 'Consultoria',
     
     // Hero Section
     heroTitle: 'Transformamos Dados em',
