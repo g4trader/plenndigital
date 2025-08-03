@@ -202,7 +202,7 @@ export const translations = {
     // About Rockets Section
     aboutRocketsTitle: 'Somos',
     aboutRocketsHighlight: 'Foguetes',
-    aboutRocketsTitleEnd: ': sem freios, sem medo, sem volta',
+    aboutRocketsTitleEnd: ': sem freios, sem medo, sem limites',
     aboutRocketsSubtitle: 'O que diferencia a Plenn Digital? Nossa mentalidade de foguete:',
     
     aboutRocket1Title: 'Só trabalhamos com quem quer crescer de verdade.',
@@ -378,9 +378,9 @@ export const translations = {
     casesSubtitle: 'Companies that trust Plenn Digital to accelerate their growth',
     
     // Contact Information
-    phone: '(51) 998321007',
-    emailCris: 'cris@plenndigital.com',
-    emailJenifer: 'jenifer@plenndigital.com',
+    phone: '(51) 99832.1007',
+    emailCris: 'cris@plenndigital.com.br',
+    emailJenifer: 'jenifer@plenndigital.com.br',
     contactForm: 'Contact Form',
     name: 'Name',
     email: 'Email',
