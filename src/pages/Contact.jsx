@@ -201,7 +201,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">E-mail</h3>
-                    <p className="text-gray-300">contato@plenndigital.com.br</p>
+                    <p className="text-gray-300">cris@plenndigital.com.br</p>
+                    <p className="text-gray-300">jenifer@plenndigital.com.br</p>
                     <p className="text-gray-400 text-sm">Resposta em até 2 horas úteis</p>
                   </div>
                 </div>
@@ -212,7 +213,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">Telefone</h3>
-                    <p className="text-gray-300">(11) 99999-9999</p>
+                    <p className="text-gray-300">(51)9983.21007</p>
                     <p className="text-gray-400 text-sm">Seg-Sex: 9h às 18h</p>
                   </div>
                 </div>
@@ -223,7 +224,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">WhatsApp</h3>
-                    <p className="text-gray-300">(11) 99999-9999</p>
+			<p className="text-gray-300">(51)9983.21007</p>
                     <p className="text-gray-400 text-sm">Atendimento 24/7</p>
                   </div>
                 </div>
@@ -234,7 +235,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">Localização</h3>
-                    <p className="text-gray-300">São Paulo, SP - Brasil</p>
+                    <p className="text-gray-300">Av. Tulio de Rose, 500 - Porto Alegre, RS - Brasil</p>
                     <p className="text-gray-400 text-sm">Atendimento presencial e remoto</p>
                   </div>
                 </div>
@@ -291,7 +292,7 @@ const Contact = () => {
             Agende uma consultoria gratuita e descubra como podemos transformar seus resultados
           </p>
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5551998321007"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-200"

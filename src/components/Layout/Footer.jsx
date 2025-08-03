@@ -113,20 +113,20 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center text-gray-400 text-sm">
                 <Phone className="h-4 w-4 mr-3 text-blue-400" />
-                {t('phone')}
+                (51) 998321007
               </div>
               <div className="flex items-center text-gray-400 text-sm">
                 <Mail className="h-4 w-4 mr-3 text-blue-400" />
-                {t('emailCris')}
+                cris@plenndigital.com.br
               </div>
               <div className="flex items-center text-gray-400 text-sm">
                 <Mail className="h-4 w-4 mr-3 text-blue-400" />
-                {t('emailJenifer')}
+                jenifer@plenndigital.com.br
               </div>
               <div className="flex items-start text-gray-400 text-sm">
                 <MapPin className="h-4 w-4 mr-3 text-blue-400 mt-0.5" />
                 <div>
-                  Porto Alegre, RS<br />
+                  Av. Tulio de Rose, 500 - Porto Alegre, RS<br />
                   Brasil
                 </div>
               </div>
