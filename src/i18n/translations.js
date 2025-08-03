@@ -12,7 +12,7 @@ export const translations = {
     allServices: 'Todos os Serviços',
     paidMedia: 'Mídia Paga',
     programmaticMedia: 'Mídia Programática',
-    contentSEO: 'SEO de conteúdo',
+    contentSEO: 'SEO & conteúdo',
     socialMedia: 'Redes Sociais',
     webDevelopment: 'Desenvolvimento Web',
     aiAutomation: 'IA e Automação',
@@ -301,6 +301,13 @@ export const translations = {
     
     // Submenu Services
     allServices: 'All Services',
+    paidMedia: 'Paid Media',
+    programmaticMedia: 'Programmatic Media',
+    contentSEO: 'Content & SEO',
+    socialMedia: 'Social Media',
+    webDevelopment: 'Web Development',
+    aiAutomation: 'Ai & Automação',
+    consulting: 'Consulting',
     
     // Hero Section
     heroTitle: 'We Transform Data into',
@@ -585,6 +592,13 @@ export const translations = {
     
     // Submenu Services
     allServices: 'Todos los Servicios',
+    paidMedia: 'Medios Pagados',
+    programmaticMedia: 'Medios Programáticos',
+    contentSEO: 'Contenido & SEO',
+    socialMedia: 'Redes Sociales',
+    webDevelopment: 'Desarrollo Web',
+    aiAutomation: 'IA e Automatización',
+    consulting: 'Consultoría',
     
     // Hero Section
     heroTitle: 'Transformamos Datos en',
