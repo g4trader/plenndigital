@@ -14,6 +14,7 @@ import SocialMedia from './pages/Services/SocialMedia';
 import WebDevelopment from './pages/Services/WebDevelopment';
 import AIAutomation from './pages/Services/AIAutomation';
 import Consulting from './pages/Services/Consulting';
+import ProgrammaticMedia from './pages/Services/ProgrammaticMedia';
 import './App.css';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
               <Route path="sobre-nos" element={<About />} />
               <Route path="servicos" element={<Services />} />
               <Route path="servicos/midia-paga" element={<PaidMedia />} />
+              <Route path="servicos/midia-programatica" element={<ProgrammaticMedia />} />
               <Route path="servicos/content-seo" element={<ContentSEO />} />
               <Route path="servicos/redes-sociais" element={<SocialMedia />} />
               <Route path="servicos/web-development" element={<WebDevelopment />} />

@@ -283,6 +283,67 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Cases de Sucesso */}
+      <section className="py-20 bg-slate-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              {t('casesTitle')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">{t('casesHighlight')}</span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              {t('casesSubtitle')}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
+            {/* Bayer */}
+            <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
+              <div className="text-2xl font-bold text-white">Bayer</div>
+            </div>
+
+            {/* Paramount Filmes */}
+            <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
+              <div className="text-lg font-bold text-white text-center">Paramount<br />Filmes</div>
+            </div>
+
+            {/* Universal */}
+            <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
+              <div className="text-2xl font-bold text-white">Universal</div>
+            </div>
+
+            {/* Amazon Prime */}
+            <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
+              <div className="text-lg font-bold text-white text-center">Amazon<br />Prime</div>
+            </div>
+
+            {/* Open Text */}
+            <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
+              <div className="text-lg font-bold text-white text-center">Open<br />Text</div>
+            </div>
+
+            {/* Charter Finance */}
+            <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
+              <div className="text-lg font-bold text-white text-center">Charter<br />Finance</div>
+            </div>
+
+            {/* Remenblemcar */}
+            <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
+              <div className="text-lg font-bold text-white">Remenblemcar</div>
+            </div>
+
+            {/* Unimed */}
+            <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
+              <div className="text-2xl font-bold text-white">Unimed</div>
+            </div>
+
+            {/* Sicredi */}
+            <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
+              <div className="text-2xl font-bold text-white">Sicredi</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Final */}
       <section className="py-20 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

@@ -88,6 +88,58 @@ export const translations = {
     whyChoose3Title: 'Parceria Verdadeira',
     whyChoose3Description: 'Relacionamento de longo prazo focado no sucesso mútuo e crescimento conjunto.',
     
+    // Cases Section
+    casesTitle: 'Nossos',
+    casesHighlight: 'Cases de Sucesso',
+    casesSubtitle: 'Empresas que confiam na Plenn Digital para acelerar seu crescimento',
+    
+    // Contact Information
+    phone: '(51) 998321007',
+    emailCris: 'cris@plenndigital.com',
+    emailJenifer: 'jenifer@plenndigital.com',
+    contactForm: 'Formulário de Contato',
+    name: 'Nome',
+    email: 'E-mail',
+    message: 'Mensagem',
+    send: 'Enviar',
+    
+    // Programmatic Media Page
+    programmaticMediaTitle: 'Mídia Programática',
+    programmaticMediaSubtitle: 'Alcance seu público-alvo com precisão através de tecnologia avançada de programmatic advertising',
+    programmaticMediaDescription: 'Nossa plataforma de mídia programática utiliza inteligência artificial e big data para otimizar suas campanhas em tempo real, garantindo o melhor ROI e alcance efetivo do seu público-alvo.',
+    
+    // Programmatic Media Features
+    realTimeOptimization: 'Otimização em Tempo Real',
+    realTimeOptimizationDesc: 'Algoritmos de IA ajustam suas campanhas automaticamente para máxima performance',
+    
+    preciseTargeting: 'Segmentação Precisa',
+    preciseTargetingDesc: 'Alcance exatamente quem você quer, quando e onde for mais efetivo',
+    
+    crossPlatform: 'Cross-Platform',
+    crossPlatformDesc: 'Campanhas integradas em todas as plataformas e dispositivos',
+    
+    // Media Channels
+    mediaChannelsTitle: 'Canais de Mídia',
+    mediaChannelsSubtitle: 'Cobertura completa em todos os pontos de contato com seu público',
+    
+    displayAds: 'Display Ads',
+    displayAdsDesc: 'Banners inteligentes em sites premium com targeting avançado',
+    
+    videoAds: 'Vídeo Ads',
+    videoAdsDesc: 'Campanhas de vídeo em YouTube, streaming e plataformas digitais',
+    
+    mobileAds: 'Mobile Ads',
+    mobileAdsDesc: 'Anúncios otimizados para dispositivos móveis e aplicativos',
+    
+    connectedTV: 'TV Conectada',
+    connectedTVDesc: 'Alcance audiências em Smart TVs e plataformas de streaming',
+    
+    oohDigital: 'OOH Digital',
+    oohDigitalDesc: 'Mídia exterior digital programática em locais estratégicos',
+    
+    audioAds: 'Áudio Ads',
+    audioAdsDesc: 'Campanhas em podcasts, Spotify e plataformas de áudio digital',
+
     // CTA Section
     ctaTitle: 'Pronto para',
     ctaHighlight: 'Transformar',
@@ -320,6 +372,58 @@ export const translations = {
     whyChoose3Title: 'True Partnership',
     whyChoose3Description: 'Long-term relationship focused on mutual success and joint growth.',
     
+    // Cases Section
+    casesTitle: 'Our',
+    casesHighlight: 'Success Cases',
+    casesSubtitle: 'Companies that trust Plenn Digital to accelerate their growth',
+    
+    // Contact Information
+    phone: '(51) 998321007',
+    emailCris: 'cris@plenndigital.com',
+    emailJenifer: 'jenifer@plenndigital.com',
+    contactForm: 'Contact Form',
+    name: 'Name',
+    email: 'Email',
+    message: 'Message',
+    send: 'Send',
+    
+    // Programmatic Media Page
+    programmaticMediaTitle: 'Programmatic Media',
+    programmaticMediaSubtitle: 'Reach your target audience with precision through advanced programmatic advertising technology',
+    programmaticMediaDescription: 'Our programmatic media platform uses artificial intelligence and big data to optimize your campaigns in real time, ensuring the best ROI and effective reach of your target audience.',
+    
+    // Programmatic Media Features
+    realTimeOptimization: 'Real-Time Optimization',
+    realTimeOptimizationDesc: 'AI algorithms automatically adjust your campaigns for maximum performance',
+    
+    preciseTargeting: 'Precise Targeting',
+    preciseTargetingDesc: 'Reach exactly who you want, when and where it\'s most effective',
+    
+    crossPlatform: 'Cross-Platform',
+    crossPlatformDesc: 'Integrated campaigns across all platforms and devices',
+    
+    // Media Channels
+    mediaChannelsTitle: 'Media Channels',
+    mediaChannelsSubtitle: 'Complete coverage at all touchpoints with your audience',
+    
+    displayAds: 'Display Ads',
+    displayAdsDesc: 'Smart banners on premium sites with advanced targeting',
+    
+    videoAds: 'Video Ads',
+    videoAdsDesc: 'Video campaigns on YouTube, streaming and digital platforms',
+    
+    mobileAds: 'Mobile Ads',
+    mobileAdsDesc: 'Ads optimized for mobile devices and applications',
+    
+    connectedTV: 'Connected TV',
+    connectedTVDesc: 'Reach audiences on Smart TVs and streaming platforms',
+    
+    oohDigital: 'Digital OOH',
+    oohDigitalDesc: 'Programmatic digital outdoor media in strategic locations',
+    
+    audioAds: 'Audio Ads',
+    audioAdsDesc: 'Campaigns on podcasts, Spotify and digital audio platforms',
+
     // CTA Section
     ctaTitle: 'Ready to',
     ctaHighlight: 'Transform',

@@ -77,6 +77,13 @@ const Header = () => {
                       {t('paidMedia')}
                     </Link>
                     <Link
+                      to="/servicos/midia-programatica"
+                      className="block px-4 py-3 text-sm text-gray-300 hover:bg-slate-700 hover:text-white transition-colors"
+                      onClick={() => setIsServicesOpen(false)}
+                    >
+                      {t('programmaticMediaTitle')}
+                    </Link>
+                    <Link
                       to="/servicos/content-seo"
                       className="block px-4 py-3 text-sm text-gray-300 hover:bg-slate-700 hover:text-white transition-colors"
                       onClick={() => setIsServicesOpen(false)}
