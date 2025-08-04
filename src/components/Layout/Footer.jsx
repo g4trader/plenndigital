@@ -21,13 +21,13 @@ const Footer = () => {
               {t('footerDescription')}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
-                <Linkedin className="h-5 w-5" />
+              <a href="https://www.tiktok.com/@plenndigital" className="text-gray-400 hover:text-blue-400 transition-colors">
+                <Tiktok className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-pink-400 transition-colors">
+              <a href="https://www.instagram.com/plenndigital" className="text-gray-400 hover:text-pink-400 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-600 transition-colors">
+              <a href="https://www.facebook.com/share/1BE3Wh8VK4/?mibextid=wwXIfr" className="text-gray-400 hover:text-blue-600 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
             </div>
