@@ -20,6 +20,7 @@ const Footer = () => {
             <p className="text-gray-400 text-sm mb-6">
               {t('footerDescription')}
             </p>
+			  
             <div className="flex space-x-4">
               <a href="https://www.tiktok.com/@plenndigital" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Tiktok className="h-5 w-5" />
