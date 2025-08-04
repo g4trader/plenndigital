@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
 			  
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://www.linkedin.com/company/plenn-digital/" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
               <a href="https://www.instagram.com/plenndigital" className="text-gray-400 hover:text-pink-400 transition-colors">
