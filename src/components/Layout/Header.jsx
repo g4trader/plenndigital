@@ -238,9 +238,9 @@ const Header = () => {
               </Link>
 
               {/* Mobile Language Selector */}
-              <div className="px-3 py-2">
+              /*<div className="px-3 py-2">
                 <LanguageSelector />
-              </div>
+              </div>*/
               
               <Link
                 to="/contato"
