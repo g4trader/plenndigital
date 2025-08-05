@@ -38,9 +38,9 @@ export const LanguageProvider = ({ children }) => {
     changeLanguage,
     t,
     availableLanguages: [
-      { code: 'pt', name: 'Português', flag: '/flag-br.png' },
-      { code: 'en', name: 'English', flag: '/flag-us.png' },
-      { code: 'es', name: 'Español', flag: '/flag-es.png' }
+		{ code: 'pt', name: 'Português', flag: '/flag-br.png' }
+		//,{ code: 'en', name: 'English', flag: '/flag-us.png' }
+        //,{ code: 'es', name: 'Español', flag: '/flag-es.png' }
     ]
   };
 
