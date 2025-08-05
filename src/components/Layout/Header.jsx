@@ -122,6 +122,7 @@ const Header = () => {
                 </>
               )}
             </div>
+			  
             <Link
               to="/cases"
               className={`text-sm font-medium transition-colors ${
