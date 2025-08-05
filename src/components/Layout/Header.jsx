@@ -122,6 +122,15 @@ const Header = () => {
                 </>
               )}
             </div>
+			  
+            <Link
+              to="/cases"
+              className={`text-sm font-medium transition-colors ${
+                isActive('/cases') ? 'text-blue-400' : 'text-gray-300 hover:text-white'
+              }`}
+            >
+              {t('cases')}
+            </Link>
             
             <a
               href="https://blog.plenndigital.com.br"
