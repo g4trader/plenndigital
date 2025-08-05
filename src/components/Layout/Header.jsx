@@ -153,7 +153,7 @@ const Header = () => {
 
           {/* Right Side - Language Selector & CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            //<LanguageSelector />
+            <LanguageSelector />
             <Link
               to="/contato"
               className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-200"
@@ -239,7 +239,7 @@ const Header = () => {
 
               {/* Mobile Language Selector */}
               <div className="px-3 py-2">
-                //<LanguageSelector />
+                <LanguageSelector />
               </div>
               
               <Link
