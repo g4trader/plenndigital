@@ -318,7 +318,7 @@ const Home = () => {
 
             {/* Open Text */}
             <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
-              <div className="text-lg font-bold text-white text-center">Open<br />Text</div>
+              <div className="text-lg font-bold text-white text-center">OpenText</div>
             </div>
 
             {/* Charter Finance */}
@@ -328,7 +328,7 @@ const Home = () => {
 
             {/* Remenblemcar */}
             <div className="bg-slate-700/50 p-6 rounded-xl border border-slate-600 hover:border-blue-500/50 transition-all duration-300 flex items-center justify-center h-24">
-              <div className="text-lg font-bold text-white">Remenblemcar</div>
+              <div className="text-lg font-bold text-white">Remarkable Cars</div>
             </div>
 
             {/* Unimed */}
