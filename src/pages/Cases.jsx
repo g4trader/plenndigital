@@ -8,9 +8,9 @@ const Cases = () => {
   
   const cases = [
     {
-      client: 'TechStart Solutions',
-      segment: 'Tecnologia',
-      challenge: 'Startup de SaaS precisava gerar leads qualificados e acelerar o crescimento',
+      client: 'Charter Finance',
+      segment: 'Financeiro',
+      challenge: 'Empresa Australiana de gestão de ativos financeiros',
       solution: 'Estratégia integrada de mídia paga + automação por IA + otimização de conversão',
       results: [
         { metric: '450%', description: 'Aumento em leads qualificados' },
