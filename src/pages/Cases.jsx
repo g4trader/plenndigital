@@ -22,37 +22,37 @@ const Cases = () => {
       gradient: 'from-blue-500 to-purple-600'
     },
     {
-      client: 'E-commerce Brasil',
-      segment: 'E-commerce',
-      challenge: 'Loja online com baixa conversão e alto custo de aquisição de clientes',
-      solution: 'Otimização de funil de vendas + remarketing inteligente + automação de email',
+      client: 'Bayer',
+      segment: 'Farmacêutica',
+      challenge: 'A Bayer é uma empresa global focada em Ciências da Vida nas áreas de saúde e nutrição',
+      solution: 'Mídia programática para fortalecer o reconhecimento da marca',
       results: [
         { metric: '280%', description: 'Aumento nas vendas online' },
         { metric: '12x', description: 'ROI em campanhas' },
         { metric: '45%', description: 'Redução no CAC' }
       ],
-      testimonial: 'Em 6 meses, triplicamos nossas vendas online. A expertise da Plenn em e-commerce é impressionante.',
-      author: 'Ana Costa, Diretora Comercial',
+      testimonial: 'Em 6 meses, triplicamos nossas vendas online. A expertise da Plenn em mídia programática é impressionante.',
+      author: 'Ana Costa, Diretora Marketing',
       gradient: 'from-purple-500 to-pink-600'
     },
     {
-      client: 'Clínica Vida Saudável',
-      segment: 'Saúde',
-      challenge: 'Clínica médica precisava aumentar agendamentos e melhorar presença digital',
-      solution: 'Marketing local + gestão de redes sociais + automação de agendamentos',
+      client: 'Paramount Filmes',
+      segment: 'Plataforma de streaming de video',
+      challenge: 'Mídia programática + remarketing + richmedia',
+      solution: 'Lançamento de séries e filmes na plataforma',
       results: [
         { metric: '320%', description: 'Aumento em agendamentos' },
         { metric: '8x', description: 'ROI em campanhas locais' },
         { metric: '55%', description: 'Redução no custo por lead' }
       ],
       testimonial: 'Nossa agenda ficou lotada! A estratégia digital da Plenn revolucionou nosso negócio.',
-      author: 'Dr. Roberto Lima, Diretor Médico',
+      author: 'Roberto Lima, Diretor Marketing',
       gradient: 'from-green-500 to-teal-600'
     },
     {
-      client: 'Construtora Horizonte',
-      segment: 'Construção Civil',
-      challenge: 'Empresa de construção civil com baixa geração de leads qualificados',
+      client: 'Universal',
+      segment: 'Entretenimento',
+      challenge: 'Empresa de entretenimento',
       solution: 'Marketing B2B + LinkedIn Ads + automação de vendas + CRM integrado',
       results: [
         { metric: '180%', description: 'Aumento em leads B2B' },
@@ -64,8 +64,8 @@ const Cases = () => {
       gradient: 'from-orange-500 to-red-600'
     },
     {
-      client: 'Academia FitLife',
-      segment: 'Fitness',
+      client: 'Amazon Prime',
+      segment: 'Plataforma de streaming de video',
       challenge: 'Rede de academias precisava aumentar matrículas e retenção de alunos',
       solution: 'Marketing local + automação de leads + campanhas sazonais + fidelização',
       results: [
@@ -78,8 +78,8 @@ const Cases = () => {
       gradient: 'from-red-500 to-pink-600'
     },
     {
-      client: 'Escola Inovação',
-      segment: 'Educação',
+      client: 'OpenText',
+      segment: 'Empresa de tecnologia da informação	',
       challenge: 'Instituição de ensino precisava aumentar matrículas e melhorar comunicação',
       solution: 'Marketing educacional + automação de matrículas + gestão de redes sociais',
       results: [
